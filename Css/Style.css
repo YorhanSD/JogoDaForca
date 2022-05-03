@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2? family= Amatic+SC:wght@400;700 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100%;
+height: 90vh;
+margin-top: 10px;
+background-color: rgb(0, 106, 255);
+font-family: 'Amatic SC', cursiva;
+}
+
+.Container{
+    display: flex; /*Alinhar*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /*Um elemento por linha*/
+    flex-direction: column; /*Um encima do outro*/
+}
+
+#Titulo{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: orange;
+}
+.Titulo-Letras{
+    font-size: 42px;
+    margin: 3px;
+    border-bottom: 3px solid orange;
+}
+
+
+#Imagem{
+    background-image: url("../Imgs/Forca-1.png");
+    width: 230px;
+    height: 270px;
+    background-repeat: no-repeat;
+}
+
+#Palavra-Secreta{
+display: flex;
+flex-direction: row; /*Em linha*/
+justify-content: center;
+align-items: center;
+font-size: 25px;
+margin-top: 3px;
+}
+
+.Letras{
+    color: orange;
+    width: 15px;
+    text-align: center;
+    margin: 6px;
+    border-bottom: 3px solid orange;
+    padding: 2px;
+}
+
+#Teclado{
+    margin-top: 30px;
+}
+
+.Teclas{
+    margin-bottom: 10px;
+}
+
+.Teclas button{
+    font-size: 18px;
+    width: 37px;
+    height: 37px;
+    margin: 5px;
+    border: 4px solid orange;
+    color: white;
+    background-color: rgb(0, 106, 255);
+    font-family: 'Amatic SC', cursiva;
+    cursor: pointer;
+    box-shadow: 1px 7px 9px blue;
+    border-radius: 5px;
+}
+
+.Teclas button:disabled{
+    cursor: not-allowed;
+}
+
+.Teclas button:hover{
+transform: scale(1.5);
+}
+
+#Categoria{
+margin-top: 30px;
+color: white;
+font-size: 22px;
+}
+
+@media (min-width: 251px){
+    .Titulo-Letras{
+        font-size: 18px;
+    }
+    #Palavra-Secreta{
+        font-size: 16px;
+        }
+    .Letras{
+        width: 14px;
+        margin: 2px;
+    }
+    .Teclas button{
+        font-size: 10px;
+        width: 17px;
+        height: 17px;
+        margin: 2px;
+        border: 2px solid orange;
+    }
+    #Categoria{
+        font-size: 14px;
+    }
+}
+@media (min-width: 351px){
+    .Titulo-Letras{
+        font-size: 28px;
+    }
+    #Palavra-Secreta{
+        font-size: 26px;
+        }
+    .Letras{
+        width: 18px;
+        margin: 5px;
+    }
+    .Teclas button{
+        font-size: 16px;
+        width: 24px;
+        height: 24px;
+        margin: 3px;
+        border: 3px solid orange;
+    }
+    #Categoria{
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 501px){
+    .Titulo-Letras{
+        font-size: 40px;
+    }
+    #Palavra-Secreta{
+        font-size: 36px;
+        }
+    .Letras{
+        width: 24px;
+        margin: 10px;
+    }
+    .Teclas button{
+        font-size: 19px;
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+        border: 5px solid orange;
+    }
+    #Categoria{
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 751px){
+    .Titulo-Letras{
+        font-size: 46px;
+    }
+    #Palavra-Secreta{
+        font-size: 40px;
+        }
+    .Letras{
+        width: 25px;
+        margin: 13px;
+    }
+    .Teclas button{
+        font-size: 24px;
+        width: 43px;
+        height: 43px;
+        margin: 6px;
+        border: 6px solid orange;
+    }
+    #Categoria{
+        font-size: 30px;
+    }
+}
+
