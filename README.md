@@ -1,4 +1,4 @@
-# JogoDaForca
+# Jogo da Forca
  
 <h2>O famoso jogo da forca disponivel para se jogar na web</h2>
 
