@@ -284,6 +284,46 @@ const palavras = [
         nome: "FRIDA",
         categoria: "GRANDES-MESTRES-DA-PINTURA"
     },
+    palavra071 = {
+        nome: "DELINEADOR",
+        categoria: "MODA"
+    },
+    palavra072 = {
+        nome: "CACHECOL",
+        categoria: "MODA"
+    },
+    palavra073 = {
+        nome: "GORRO",
+        categoria: "MODA"
+    },
+    palavra074 = {
+        nome: "SOBRETUDO",
+        categoria: "MODA"
+    },
+    palavra075 = {
+        nome: "BATOM",
+        categoria: "MODA"
+    },
+    palavra076 = {
+        nome: "APLIQUE",
+        categoria: "MODA"
+    },
+    palavra077 = {
+        nome: "BLUSH",
+        categoria: "MODA"
+    },
+    palavra078 = {
+        nome: "JEANS",
+        categoria: "MODA"
+    },
+    palavra079 = {
+        nome: "JAQUETA",
+        categoria: "MODA"
+    },
+    palavra080 = {
+        nome: "ALFAIATARIA",
+        categoria: "MODA"
+    },
 ];
 
 criarPalavraSecreta();
