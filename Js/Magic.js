@@ -5,44 +5,284 @@ let palavraSecretaSorteada;
 
 const palavras = [
     palavra001 = {
-        nome: "GTA",
-        categoria: "GAMES"
+        nome: "CRASH",
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra002 = {
         nome: "MARIO",
-        categoria: "GAMES"
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra003 = {
-        nome: "BATTLEFIELD",
-        categoria: "GAMES"
+        nome: "MINECRAFT",
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra004 = {
-        nome: "MINECRAFT",
-        categoria: "GAMES"
+        nome: "BATTLEFIELD",
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra005 = {
-        nome: "PLAYSTATION",
-        categoria: "GAMES"
+        nome: "TETRIS",
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra006 = {
-        nome: "TRATOR",
-        categoria: "VEICULOS"
+        nome: "SONIC",
+        categoria: "JOGOS-DIGITAIS"
     },
     palavra007 = {
+        nome: "MEGAMAN",
+        categoria: "JOGOS-DIGITAIS"
+    },
+    palavra008 = {
+        nome: "BOMBERMAN",
+        categoria: "JOGOS-DIGITAIS"
+    },
+    palavra009 = {
+        nome: "CUPHEAD",
+        categoria: "JOGOS-DIGITAIS"
+    },
+    palavra010 = {
+        nome: "CIVILIZATION",
+        categoria: "JOGOS-DIGITAIS"
+    },
+    palavra011 = {
+        nome: "ESTROGONOFE",
+        categoria: "ALIMENTOS"
+    },
+    palavra012 = {
+        nome: "CAMARAO",
+        categoria: "ALIMENTOS"
+    },
+    palavra013 = {
+        nome: "ROSBIFE",
+        categoria: "ALIMENTOS"
+    },
+    palavra014 = {
+        nome: "GYOZA",
+        categoria: "ALIMENTOS"
+    },
+    palavra015 = {
+        nome: "GUACAMOLE",
+        categoria: "ALIMENTOS"
+    },
+    palavra016 = {
+        nome: "LASANHA",
+        categoria: "ALIMENTOS"
+    },
+    palavra017 = {
+        nome: "OVO",
+        categoria: "ALIMENTOS"
+    },
+    palavra018 = {
+        nome: "LEITE",
+        categoria: "ALIMENTOS"
+    },
+    palavra019 = {
+        nome: "SANDUICHE",
+        categoria: "ALIMENTOS"
+    },
+    palavra020 = {
+        nome: "MANGA",
+        categoria: "ALIMENTOS"
+    },
+    palavra021 = {
         nome: "CAMINHAO",
         categoria: "VEICULOS"
     },
-    palavra008 = {
-        nome: "AEROFOLIO",
+    palavra022 = {
+        nome: "CARROCA",
         categoria: "VEICULOS"
     },
-    palavra009 = {
-        nome: "AMORTECEDOR",
+    palavra023 = {
+        nome: "TRATOR",
         categoria: "VEICULOS"
     },
-    palavra010 = {
-        nome: "BOLEIA",
+    palavra024 = {
+        nome: "CARRO",
         categoria: "VEICULOS"
+    },
+    palavra025 = {
+        nome: "CAMIONETE",
+        categoria: "VEICULOS"
+    },
+    palavra026 = {
+        nome: "JIPE",
+        categoria: "VEICULOS"
+    },
+    palavra027 = {
+        nome: "MOTOCICLETA",
+        categoria: "VEICULOS"
+    },
+    palavra028 = {
+        nome: "BICICLETA",
+        categoria: "VEICULOS"
+    },
+    palavra029 = {
+        nome: "CHARRETE",
+        categoria: "VEICULOS"
+    },
+    palavra030 = {
+        nome: "ONIBUS",
+        categoria: "VEICULOS"
+    },
+    palavra031 = {
+        nome: "COPACABANA",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra032 = {
+        nome: "COLISEU",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra033 = {
+        nome: "DISNEYLAND",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra034 = {
+        nome: "STONEHENGE",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra035 = {
+        nome: "PETRA",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra036 = {
+        nome: "IPANEMA",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra037 = {
+        nome: "BALI",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra038 = {
+        nome: "VENEZA",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra039 = {
+        nome: "DUBAI",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra040 = {
+        nome: "KATHMANDU",
+        categoria: "PONTO-TURISTICO"
+    },
+    palavra041 = {
+        nome: "TECLADO",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra042 = {
+        nome: "BERIMBAU",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra043 = {
+        nome: "GUITARRA",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra044 = {
+        nome: "CITARA",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra045 = {
+        nome: "UKULELE",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra046 = {
+        nome: "BATERIA",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra047 = {
+        nome: "SAXOFONE",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra048 = {
+        nome: "ARCODEAO",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra049 = {
+        nome: "ATABAQUE",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra050 = {
+        nome: "TEREMIM",
+        categoria: "INSTRUMENTOS-MUSICAIS"
+    },
+    palavra051 = {
+        nome: "HIDRA",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra052 = {
+        nome: "FENIX",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra053 = {
+        nome: "BOITATA",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra054 = {
+        nome: "LOBISOMEM",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra055 = {
+        nome: "PEGASSUS",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra056 = {
+        nome: "DRAGAO",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra057 = {
+        nome: "KRAKEN",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra058 = {
+        nome: "QUIMERA",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra059 = {
+        nome: "LEPRECHAUN",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra060 = {
+        nome: "SEREIA",
+        categoria: "CRIATURAS-LENDARIAS"
+    },
+    palavra061 = {
+        nome: "ARTEMISIA",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra062 = {
+        nome: "CASSATT",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra063 = {
+        nome: "PORTINARI",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra064 = {
+        nome: "TARSILA",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra065 = {
+        nome: "VINCENT",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra066 = {
+        nome: "DALI",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra067 = {
+        nome: "PICASSO",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra068 = {
+        nome: "MONET",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra069 = {
+        nome: "LEONID",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
+    },
+    palavra070 = {
+        nome: "FRIDA",
+        categoria: "GRANDES-MESTRES-DA-PINTURA"
     },
 ];
 
